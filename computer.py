@@ -2,21 +2,21 @@ class Computer:
 
     # What attributes will it need? This will need Brand,Model, Os, Display, Memory, storage, Battery, Year of Manufcturing and Price
     # computer attributes
-    str Brand=""
-    str Model=""
-    str Os=""
-    str Display=""
-    str Memory=""
-    str Storage=""
-    str Battery=""
-    int Year_of_Manufacturing=0
-    float Price=0.0
+    Brand:str
+    Model:str
+    Os:str
+    Display:str
+    Memory:str
+    Storage:str
+    Battery:str
+    Year_of_Manufacturing:int
+    Price:int
 
 
     # How will you set up your constructor?
     # Constructor: it should have the computer attributes not as parameters
-    def __init__():
-        self.Branbd=Brand
+    def __init__(self, Brand, Model, Os, Display, Memory, Storage, Battery, Year_of_Manufacturing, Price):
+        self.Brand=Brand
         self.Model=Model
         self.Os=Os
         self.Display=Display

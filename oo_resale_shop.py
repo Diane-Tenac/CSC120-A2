@@ -3,7 +3,7 @@ class ResaleShop:
 
     # What attributes will it need?
     # I think attributes here will be mostly what the shop has
-    str ComputerBrands="" # I think each brand shall also have all the necessary computer attribures in the store.
+    str ComputerBrands= "" # I think each brand shall also have all the necessary computer attribures in the store.
     int BrandCounts=0
 
 
