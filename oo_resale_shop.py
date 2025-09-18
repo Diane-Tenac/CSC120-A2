@@ -20,7 +20,9 @@ class ResaleShop:
     def UpdateInventory():
          # Not sure what to put here yet
          pass
-    def CheckinComputer():
+    def CheckinComputer(Brand, Model, Os, Display, Memory, Storage, Battery, Year_of_Manufacturing, Price ):
+         # thinking of updating counts +1 whaen a computer is checked in but in a way that it will be recording information based on brands
+         
 
 
          # Not sure what to put here yet
