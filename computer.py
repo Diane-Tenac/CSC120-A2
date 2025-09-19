@@ -14,7 +14,9 @@ class Computer:
 
 
     # How will you set up your constructor?
-    # Constructor: it should have the computer attributes not as parameters
+    # Constructor: it should have the computer attributes as parameters
+    # Remember: in python, all constructors have the same name (__init__)
+    # Contractor to initialize the attributes
     def __init__(self, Brand, Model, Os, Display, Memory, Storage, Battery, Year_of_Manufacturing, Price):
         self.Brand=Brand
         self.Model=Model
@@ -25,23 +27,18 @@ class Computer:
         self.Battery=Battery
         self.Year_of_Manufacturing=Year_of_Manufacturing
         self.Price=Price
-
-
-    # Remember: in python, all constructors have the same name (__init__)
-    def __init__():
-        pass # You'll remove this when you fill out your constructor
+        # Removed Pass
 
     # What methods will you need?
     # For the method I choose to have them into 3 main Partitions.
     #1. Brand-Model-Os
     #2. Display-Memory-Storage
     #3. Battery-Year of Manufacturing-Price
-    def BrandModelOs():
-         # Not sure what to put here yet
-         pass
-    def DisplayMemoryStorage():
-         # Not sure what to put here yet
-         pass
-    def BatteryYearOfManufacturingPrice():
-         # Not sure what to put here yet
-         pass
+    def DisplayComputerDetails(self):
+        print(f'Brand: {self.Brand}, Model: {self.Model}, OS: {self.Os}, Display: {self.Display}, Memory: {self.Memory}, Storage: {self.Storage}, Battery: {self.Battery}, Year of Manufacturing: {self.Year_of_Manufacturing}, Price: ${self.Price}')
+    def update_OS(self, new_os):
+        self.Os=new_os
+
+    def update_price(self, new_price):
+        self.Price=new_price
+    
