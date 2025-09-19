@@ -25,26 +25,26 @@ __1__ 1 pt: Constructor for `ResaleShop` class is present and sets attributes co
 
 ### Level 3 (4 pts)
 
-____ 1 pt: Can successfully add a new `Computer` to the inventory
+___1_ 1 pt: Can successfully add a new `Computer` to the inventory
 
-____ 1 pt: Can successfully remove a `Computer` from the inventory
+__1__ 1 pt: Can successfully remove a `Computer` from the inventory
 
-____ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
+___1_ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
 
-____ 1 pt: Program prints appropriate error messages
+__1__ 1 pt: Program prints appropriate error messages
 
 ## General Items (10 pts):
 
-_____ 4 pts: Program executes fully & consistently without crashing (exception/freeze)
+__4___ 4 pts: Program executes fully & consistently without crashing (exception/freeze)
 
-_____ 1 pt: Classes & class members all have header comments
+___1__ 1 pt: Classes & class members all have header comments
 
-_____ 1 pt: Clear and consistent indentation
+__1___ 1 pt: Clear and consistent indentation
 
-_____ 1 pt: Adheres to conventions on naming / capitalization
+__1___ 1 pt: Adheres to conventions on naming / capitalization
 
-_____ 1 pt: Methods and variables all have clear and descriptive names
+_1____ 1 pt: Methods and variables all have clear and descriptive names
 
-_____ 1 pt: All required files included with submission (including completed checklist file)
+_1____ 1 pt: All required files included with submission (including completed checklist file)
 
-_____1 1 pt: `reflection.md` contains your reflection on the assignment
+__1___1 1 pt: `reflection.md` contains your reflection on the assignment
